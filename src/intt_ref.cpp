@@ -5,7 +5,7 @@
 // M
 #define INTT_M 32
 // Use shrink
-#define SHRINK
+// #define SHRINK
 
 static RNSc_half_GSW * acc, tmp;
 // The intt algorithm does not run in place, so we need a buffer for temporary results. 

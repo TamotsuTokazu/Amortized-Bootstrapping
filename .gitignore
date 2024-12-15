@@ -1,0 +1,64 @@
+###############################################################################
+# Build artifacts (general C/C++)
+###############################################################################
+*.o
+*.obj
+*.lo
+*.la
+*.al
+*.libs
+*.so
+*.so.*
+*.dylib
+*.dll
+*.exe
+*.out
+*.a
+*.lib
+*.pdb
+*.pch
+*.pchi
+*.mod
+*.tlog
+*.cache
+
+###############################################################################
+# CMake build artifacts and intermediate files
+###############################################################################
+build/
+/cmake-build-*/         # Often default for multi-configuration builds
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Makefile
+cmake_install.cmake
+Testing/
+CTestTestfile.cmake
+CTestCostData.txt
+*.cmake
+install_manifest.txt
+
+###############################################################################
+# Visual Studio Code settings
+###############################################################################
+.vscode/
+.vscode/*
+*.code-workspace
+
+###############################################################################
+# Other common OS-generated or Editor/IDE-specific files
+###############################################################################
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Linux
+*~
+
+# Optional: Qt-specific or other frameworks’ build artifacts
+# moc_*.cpp
+# qrc_*.cpp
+# ui_*.h
