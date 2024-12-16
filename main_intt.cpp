@@ -3,7 +3,7 @@
 
 void test_intt_reference(){
   // Parameters
-  const uint64_t N = 512, l = 4, bit_size = 49, p = 12289;
+  const uint64_t N = 1024, l = 4, bit_size = 49, p = 12289;
   const uint64_t N_prime = next_power_of_2(p)<<1;
   std::cout << "p: " << p << "\n";
   std::cout << "N': " << N_prime << "\n";
